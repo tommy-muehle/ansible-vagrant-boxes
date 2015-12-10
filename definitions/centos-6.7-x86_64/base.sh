@@ -11,10 +11,13 @@ gpgcheck=0
 EOM
 
 yum groupinstall -y development
-yum install -y zlib-dev openssl-devel sqlite-devel bzip2-devel wget
+yum install -y zlib-dev openssl-devel sqlite-devel bzip2-devel wget gcc kernel-devel make
 
 # Make ssh faster by not waiting on DNS
 echo "UseDNS no" >> /etc/ssh/sshd_config
+
+# foo
+export PATH=$PATH:/usr/local/bin
 
 # Install python 2.7.10
 cd /tmp
