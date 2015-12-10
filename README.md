@@ -22,6 +22,8 @@ $ veewee vbox export centos-6.7-x86_64
 
 ### CentOS 6.7 x86_64
 
+* with GuestAdditions 5.0.10
+
 | Package   | Version | Executable                 |
 | --------- | ------- | -------------------------- |
 | Python    | 2.7.10  | /usr/local/bin/python2.7   |
