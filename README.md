@@ -29,3 +29,4 @@ $ veewee vbox export centos-6.7-x86_64
 | Python    | 2.7.10  | /usr/local/bin/python2.7   |
 | pip       | 7.1.2   | /usr/local/bin/pip2.7      |
 | ansible   | 1.9.4   | /usr/local/bin/ansible     |
+| Ruby      | 2.2.3   | /usr/local/bin/ruby        |
