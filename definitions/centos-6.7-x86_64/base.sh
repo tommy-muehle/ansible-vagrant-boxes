@@ -44,3 +44,11 @@ source ~/.bashrc
 
 # Install ansible and required libs
 /usr/local/bin/pip2.7 install ansible
+
+# Install ruby
+cd /tmp
+wget https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.3.tar.gz -O ruby-2.2.3.tar.gz
+tar -xzf ruby-2.2.3.tar.gz
+cd ruby-2.2.3
+./configure --prefix=/usr/local
+make && make install
