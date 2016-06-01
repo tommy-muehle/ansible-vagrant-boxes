@@ -10,12 +10,12 @@ Build fast vagrant-base-boxes for further usage with ansible provisioning.
 
 ## Build
 ```
-$ veewee vbox build centos-6.7-x86_64
+$ veewee vbox build [BOX_NAME]
 ```
 
 ## Export
 ```
-$ veewee vbox export centos-6.7-x86_64
+$ veewee vbox export [BOX_NAME]
 ```
 
 ## Boxes
